@@ -95,7 +95,7 @@ class AdController extends AdminBase
 			$img =  CUploadedFile::getInstance($model,'img');
 			if($img){
 				$savename = Yii::app()->params['uploadPath'].time().mt_rand(1,999).'.'.$img->extensionName;
-				$model->img=$savename;
+				$model->img='/'.$savename;
 				if($model->validate()){
 					$img->saveAs($savename);
 				}
