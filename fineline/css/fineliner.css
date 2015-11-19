@@ -43,11 +43,11 @@ body.full-bg {
 	-o-background-size: cover;
 	background-size: cover;
 }
-
+/*
 a, a:visited {
-	/*color: #1B83BE;*/
+	color: #1B83BE;
 }
-
+*/
 strong {
 	font-weight: 700;
 }
@@ -1223,10 +1223,6 @@ hr.double-line {
 	border-bottom: 0 !important;
 	color: #474545;
 	/*font-weight: 700;*/
-	transition: color .18s ease-in-out;
-   -moz-transition: color .18s ease-in-out;
-   -webkit-transition: color .18s ease-in-out;
-   -o-transition: color .18s ease-in-out;
 }
 
 #content-container .blog-title a:hover {
@@ -1305,10 +1301,6 @@ hr.double-line {
 	border-bottom: 0;
 	color: #111;
 	font-weight: 600;
-	transition: color .18s ease-in-out;
-   -moz-transition: color .18s ease-in-out;
-   -webkit-transition: color .18s ease-in-out;
-   -o-transition: color .18s ease-in-out;
 }
 
 #sidebar-wrapper a:hover {
