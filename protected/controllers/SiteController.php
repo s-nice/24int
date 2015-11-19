@@ -1,6 +1,6 @@
 <?php
 
-class SiteController extends Controller
+class SiteController extends FrontBase
 {
 	/**
 	 * Declares class-based actions.

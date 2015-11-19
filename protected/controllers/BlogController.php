@@ -11,7 +11,7 @@
  *
  * @author Administrator
  */
-class BlogController extends Controller {
+class BlogController extends FrontBase {
 	//put your code here
 	
 	public function actionIndex($pid=''){
