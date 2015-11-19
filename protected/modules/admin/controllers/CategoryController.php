@@ -28,6 +28,7 @@ class CategoryController extends AdminBase
 	{
 		$model=new Category;
 		$catlist = Category::getDropList(0);
+		$model->orderid=1;
 		
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
