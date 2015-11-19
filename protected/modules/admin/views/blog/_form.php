@@ -13,6 +13,7 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
+	'htmlOptions' => array('enctype' => 'multipart/form-data'),
 )); ?>
 
 <?php if( Yii::app()->user->hasFlash('success')): ?>
@@ -42,7 +43,7 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'img'); ?>
 		<?php echo $form->fileField($model,'img');
-			if($model->id){
+			if($model->img){
 		?>
 		<div style="margin-left: 100px">
 		<img height="100" src="<?php echo $model->img; ?>" />
