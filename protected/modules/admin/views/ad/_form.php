@@ -49,7 +49,7 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'img'); ?>：
 		<?php echo $form->fileField($model,'img');
-		if($model->id){
+		if($model->img){
 		?>
 		<div style="margin-left: 100px">
 		<img height="100" src="<?php echo $model->img; ?>" />
