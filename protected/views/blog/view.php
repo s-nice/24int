@@ -4,6 +4,11 @@
 		<!-- Blog Content -->
 		<div class="blog-item single">
 			<h2 class="blog-title"><?php echo $blog->title; ?></h2>
+			<p class="info">
+			<?php echo date('Y-m-d',$blog->create_time); ?>
+			<a href="<?php echo Yii::app()->createUrl('blog/index', array('pid' => $blog->pid)); ?>">分类：<?php echo Category::getName($blog->pid); ?></a>
+			阅读：<?php echo mt_rand(1, 99)+$blog->views; ?>
+			</p>
 			<?php echo $blog->content; ?>
 		</div>
 
