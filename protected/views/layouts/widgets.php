@@ -33,9 +33,10 @@
         <link href="/assets/plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
         <!-- CORE CSS FRAMEWORK - END -->
 
-        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
-        <link href="/assets/plugins/icheck/skins/minimal/white.css" rel="stylesheet" type="text/css" media="screen"/><link href="/assets/plugins/jvectormap/jquery-jvectormap-2.0.1.css" rel="stylesheet" type="text/css" media="screen"/>        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
-
+        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+        <link href="/assets/plugins/icheck/skins/minimal/white.css" rel="stylesheet" type="text/css" media="screen"/>
+		<link href="/assets/plugins/jvectormap/jquery-jvectormap-2.0.1.css" rel="stylesheet" type="text/css" media="screen"/>
+		<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
 
         <!-- CORE CSS TEMPLATE - START -->
         <link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
