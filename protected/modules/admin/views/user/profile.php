@@ -36,8 +36,7 @@
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'user_name'); ?>：
-		<?php echo $form->textField($model,'user_name',array('size'=>20,'maxlength'=>20,'class'=>'','readonly'=>1)); ?>
-		<?php echo $form->error($model,'user_name'); ?>
+		<?php echo $model->user_name; ?>
 	</div>
 
 	<div class="row">
