@@ -127,7 +127,7 @@
 	#content-container h2,
 	#content-container h3.larger {
 		font-size: 20px;
-		margin-bottom: 16px;
+		/*margin-bottom: 16px;*/
 	}
 	
 	#content-container h3,
