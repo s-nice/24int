@@ -217,6 +217,8 @@ class UserController extends AdminBase
 		
 		$model = $this->loadModel($uid);
 		
+		$nowpwd=$model->password;
+		
 		if (isset($_POST['User'])) {
 			$model->attributes = $_POST['User'];
 			
@@ -230,7 +232,7 @@ class UserController extends AdminBase
 				Yii::app()->user->setFlash('success','新密码不能少于6位！');
 			}else if($model->newpwd1!=$model->newpwd2){
 				Yii::app()->user->setFlash('success','两次密码不一致！');
-			}else if($model->password!=$oldpwd){
+			}else if($nowpwd!=$oldpwd){
 				Yii::app()->user->setFlash('success','旧密码不正确！');
 			}else{
 				$model->password=substr(md5($model->newpowd1),0,20);
