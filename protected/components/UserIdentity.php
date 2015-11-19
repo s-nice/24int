@@ -42,8 +42,8 @@ class UserIdentity extends CUserIdentity
 		elseif (!($user instanceof User) || ($user->password != $this->password))
 			$this->errorCode = self::ERROR_PASSWORD_INVALID;
 		else {
-			//$this->setState('admin_id', $user->id);
-			//$this->setState('user_name', $user->user_name);
+			$this->setState('admin_id', $user->id);
+			$this->setState('user_name', $user->user_name);
 			
 			$this->_id=$user->id;
 			$this->username=$user->user_name;
