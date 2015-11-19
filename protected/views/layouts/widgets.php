@@ -73,7 +73,7 @@
                                         <li class="unread status-available">
                                             <a href="javascript:;">
                                                 <div class="user-img">
-                                                    <img src="data/profile/avatar-1.png" alt="user-image" class="img-circle img-inline">
+                                                    <img src="/data/profile/avatar-1.png" alt="user-image" class="img-circle img-inline">
                                                 </div>
                                                 <div>
                                                     <span class="name">
@@ -90,7 +90,7 @@
                                         <li class=" status-away">
                                             <a href="javascript:;">
                                                 <div class="user-img">
-                                                    <img src="data/profile/avatar-2.png" alt="user-image" class="img-circle img-inline">
+                                                    <img src="/data/profile/avatar-2.png" alt="user-image" class="img-circle img-inline">
                                                 </div>
                                                 <div>
                                                     <span class="name">
@@ -107,7 +107,7 @@
                                         <li class=" status-busy">
                                             <a href="javascript:;">
                                                 <div class="user-img">
-                                                    <img src="data/profile/avatar-3.png" alt="user-image" class="img-circle img-inline">
+                                                    <img src="/data/profile/avatar-3.png" alt="user-image" class="img-circle img-inline">
                                                 </div>
                                                 <div>
                                                     <span class="name">
@@ -124,7 +124,7 @@
                                         <li class=" status-offline">
                                             <a href="javascript:;">
                                                 <div class="user-img">
-                                                    <img src="data/profile/avatar-4.png" alt="user-image" class="img-circle img-inline">
+                                                    <img src="/data/profile/avatar-4.png" alt="user-image" class="img-circle img-inline">
                                                 </div>
                                                 <div>
                                                     <span class="name">
@@ -141,7 +141,7 @@
                                         <li class=" status-offline">
                                             <a href="javascript:;">
                                                 <div class="user-img">
-                                                    <img src="data/profile/avatar-5.png" alt="user-image" class="img-circle img-inline">
+                                                    <img src="/data/profile/avatar-5.png" alt="user-image" class="img-circle img-inline">
                                                 </div>
                                                 <div>
                                                     <span class="name">
@@ -158,7 +158,7 @@
                                         <li class=" status-available">
                                             <a href="javascript:;">
                                                 <div class="user-img">
-                                                    <img src="data/profile/avatar-1.png" alt="user-image" class="img-circle img-inline">
+                                                    <img src="/data/profile/avatar-1.png" alt="user-image" class="img-circle img-inline">
                                                 </div>
                                                 <div>
                                                     <span class="name">
@@ -175,7 +175,7 @@
                                         <li class=" status-busy">
                                             <a href="javascript:;">
                                                 <div class="user-img">
-                                                    <img src="data/profile/avatar-2.png" alt="user-image" class="img-circle img-inline">
+                                                    <img src="/data/profile/avatar-2.png" alt="user-image" class="img-circle img-inline">
                                                 </div>
                                                 <div>
                                                     <span class="name">
@@ -192,7 +192,7 @@
                                         <li class=" status-away">
                                             <a href="javascript:;">
                                                 <div class="user-img">
-                                                    <img src="data/profile/avatar-3.png" alt="user-image" class="img-circle img-inline">
+                                                    <img src="/data/profile/avatar-3.png" alt="user-image" class="img-circle img-inline">
                                                 </div>
                                                 <div>
                                                     <span class="name">
@@ -504,7 +504,7 @@
 
                         <li class="user-row" id='chat_user_1' data-user-id='1'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-1.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Clarine Vassar</a></h4>
@@ -516,7 +516,7 @@
                         </li>
                         <li class="user-row" id='chat_user_2' data-user-id='2'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-2.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Brooks Latshaw</a></h4>
@@ -528,7 +528,7 @@
                         </li>
                         <li class="user-row" id='chat_user_3' data-user-id='3'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-3.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Clementina Brodeur</a></h4>
@@ -547,7 +547,7 @@
 
                         <li class="user-row" id='chat_user_4' data-user-id='4'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-4.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Carri Busey</a></h4>
@@ -559,7 +559,7 @@
                         </li>
                         <li class="user-row" id='chat_user_5' data-user-id='5'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-5.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Melissa Dock</a></h4>
@@ -571,7 +571,7 @@
                         </li>
                         <li class="user-row" id='chat_user_6' data-user-id='6'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-1.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Verdell Rea</a></h4>
@@ -583,7 +583,7 @@
                         </li>
                         <li class="user-row" id='chat_user_7' data-user-id='7'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-2.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Linette Lheureux</a></h4>
@@ -595,7 +595,7 @@
                         </li>
                         <li class="user-row" id='chat_user_8' data-user-id='8'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-3.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-3.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Araceli Boatright</a></h4>
@@ -607,7 +607,7 @@
                         </li>
                         <li class="user-row" id='chat_user_9' data-user-id='9'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-4.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-4.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Clay Peskin</a></h4>
@@ -619,7 +619,7 @@
                         </li>
                         <li class="user-row" id='chat_user_10' data-user-id='10'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-5.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-5.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Loni Tindall</a></h4>
@@ -631,7 +631,7 @@
                         </li>
                         <li class="user-row" id='chat_user_11' data-user-id='11'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-1.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-1.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Tanisha Kimbro</a></h4>
@@ -643,7 +643,7 @@
                         </li>
                         <li class="user-row" id='chat_user_12' data-user-id='12'>
                             <div class="user-img">
-                                <a href="#"><img src="data/profile/avatar-2.png" alt=""></a>
+                                <a href="#"><img src="/data/profile/avatar-2.png" alt=""></a>
                             </div>
                             <div class="user-info">
                                 <h4><a href="#">Jovita Tisdale</a></h4>
