@@ -73,7 +73,7 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'avatar'); ?>：
 		<?php echo $form->fileField($model,'avatar');
-		if($model->id){
+		if($model->avatar){
 		?>
 		<div style="margin-left: 100px">
 		<img height="100" src="<?php echo $model->avatar; ?>" />
