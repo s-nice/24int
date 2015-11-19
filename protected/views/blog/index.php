@@ -4,6 +4,11 @@
 		<?php if($blogs){ foreach ($blogs as $one) { ?>
 			<div class="blog-item">
 				<h2 class="blog-title"><a href="<?php echo Yii::app()->createUrl('blog/view', array('id' => $one->id)); ?>"><?php echo $one->title; ?></a></h2>
+				<p class="info">
+				<?php echo date('Y-m-d',$one->create_time); ?>
+				<a href="<?php echo Yii::app()->createUrl('blog/index', array('pid' => $one->pid)); ?>">分类：<?php echo Category::getName($one->pid); ?></a>
+				阅读：<?php echo mt_rand(1, 99)+$one->views; ?>
+				</p>
 				<p class="excerpt"><?php echo $one->brief; ?></p>
 				<a class="readmore-link" href="<?php echo Yii::app()->createUrl('blog/view', array('id' => $one->id)); ?>">继续阅读 -></a>
 			</div>
