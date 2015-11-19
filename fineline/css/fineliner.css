@@ -646,13 +646,13 @@ hr.double-line {
 	font-size: 30px;
 	margin-bottom: 18px;
 }
-
+/*
 #content-container h2,
 #content-container h3.larger {
 	font-size: 24px;
 	margin-bottom: 18px;
 }
-
+*/
 #content-container h3,
 #content-container h2.smaller {
 	font-size: 21px;
@@ -3009,4 +3009,9 @@ input[type=submit] {
 
 #content-container .blog-item ul{
 	list-style-type:none;
+}
+
+#content-container .info {
+font-size: 12px;
+margin-bottom: 18px;
 }
