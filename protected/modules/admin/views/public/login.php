@@ -43,7 +43,7 @@ $this->breadcrumbs=array(
 
         <div class="login-wrapper">
             <div style="padding-top: 100px" id="login" class="login loginpage col-lg-offset-4 col-lg-4 col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-2 col-xs-8">
-                <h1><a href="#" title="Login Page" tabindex="-1">Ultra Admin</a></h1>
+                <h1><a href="javascript:;" title="Login Page" tabindex="-1">24INT Admin</a></h1>
 
 				<?php
 				$form = $this->beginWidget('CActiveForm', array(
