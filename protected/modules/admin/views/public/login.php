@@ -20,10 +20,10 @@ $this->breadcrumbs=array(
         -->
         <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
         <meta charset="utf-8" />
-        <title>Ultra Admin : Login Page</title>
+        <title>24INT Admin</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta content="" name="description" />
-        <meta content="" name="author" />
+        <meta content="24INT" name="description" />
+        <meta content="24INT" name="author" />
 
         <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />    <!-- Favicon -->
         <link rel="apple-touch-icon-precomposed" href="/assets/images/apple-touch-icon-57-precomposed.png">	<!-- For iPhone -->
@@ -68,7 +68,7 @@ $this->breadcrumbs=array(
 				</p>
 				
 				<p class="submit">
-					<input type="submit" name="wp-submit" id="wp-submit" class="btn btn-orange btn-block" value="登录">
+					<input type="submit" name="wp-submit" id="wp-submit" class="btn btn-primary btn-block" value="登录">
 				</p>
 				
 				<?php $this->endWidget(); ?>
