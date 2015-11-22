@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html class=" ">
     <head>
@@ -16,28 +15,14 @@
         <meta content="" name="author" />
 
         <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />    <!-- Favicon -->
-        <link rel="apple-touch-icon-precomposed" href="/assets/images/apple-touch-icon-57-precomposed.png">	<!-- For iPhone -->
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/apple-touch-icon-114-precomposed.png">    <!-- For iPhone 4 Retina display -->
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/apple-touch-icon-72-precomposed.png">    <!-- For iPad -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/apple-touch-icon-144-precomposed.png">    <!-- For iPad Retina display -->
-
+		
         <!-- CORE CSS FRAMEWORK - START -->
-        <link href="/assets/plugins/pace/pace-theme-flash.css" rel="stylesheet" type="text/css" media="screen"/>
         <link href="/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="/assets/plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
         <link href="/assets/fonts/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-        <link href="/assets/css/animate.min.css" rel="stylesheet" type="text/css"/>
-        <link href="/assets/plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
         <!-- CORE CSS FRAMEWORK - END -->
-
-        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
-        <link href="/assets/plugins/icheck/skins/minimal/white.css" rel="stylesheet" type="text/css" media="screen"/>
-		<link href="/assets/plugins/jvectormap/jquery-jvectormap-2.0.1.css" rel="stylesheet" type="text/css" media="screen"/>
-		<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
-
+		
         <!-- CORE CSS TEMPLATE - START -->
         <link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="/assets/css/responsive.css" rel="stylesheet" type="text/css"/>
         <!-- CORE CSS TEMPLATE - END -->
 
     </head>
@@ -334,17 +319,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="hidden-sm hidden-xs searchform">
-                            <div class="input-group">
-                                <span class="input-group-addon input-focus">
-                                    <i class="fa fa-search"></i>
-                                </span>
-                                <form action="search-page.html" method="post">
-                                    <input type="text" class="form-control animated fadeIn" placeholder="Search & Enter">
-                                    <input type='submit' value="">
-                                </form>
-                            </div>
-                        </li>
+                        
                     </ul>
                 </div>		
                 <div class='pull-right'>
@@ -381,12 +356,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="chat-toggle-wrapper">
-                            <a href="#" data-toggle="chatbar" class="toggle_chat">
-                                <i class="fa fa-comments"></i>
-                                <span class="badge badge-warning">9</span>
-                            </a>
-                        </li>
+                        
                     </ul>			
                 </div>		
             </div>
@@ -467,229 +437,29 @@
                 </section>
             </section>
             <!-- END CONTENT -->
-            <div class="page-chatapi hideit">
-
-                <div class="search-bar">
-                    <input type="text" placeholder="Search" class="form-control">
-                </div>
-
-                <div class="chat-wrapper">
-                    <h4 class="group-head">Groups</h4>
-                    <ul class="group-list list-unstyled">
-                        <li class="group-row">
-                            <div class="group-status available">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                            <div class="group-info">
-                                <h4><a href="#">Work</a></h4>
-                            </div>
-                        </li>
-                        <li class="group-row">
-                            <div class="group-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                            <div class="group-info">
-                                <h4><a href="#">Friends</a></h4>
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                    <h4 class="group-head">Favourites</h4>
-                    <ul class="contact-list">
-
-                        <li class="user-row" id='chat_user_1' data-user-id='1'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-1.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Clarine Vassar</a></h4>
-                                <span class="status available" data-status="available"> Available</span>
-                            </div>
-                            <div class="user-status available">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_2' data-user-id='2'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-2.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Brooks Latshaw</a></h4>
-                                <span class="status away" data-status="away"> Away</span>
-                            </div>
-                            <div class="user-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_3' data-user-id='3'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-3.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Clementina Brodeur</a></h4>
-                                <span class="status busy" data-status="busy"> Busy</span>
-                            </div>
-                            <div class="user-status busy">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-
-                    </ul>
-
-
-                    <h4 class="group-head">More Contacts</h4>
-                    <ul class="contact-list">
-
-                        <li class="user-row" id='chat_user_4' data-user-id='4'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-4.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Carri Busey</a></h4>
-                                <span class="status offline" data-status="offline"> Offline</span>
-                            </div>
-                            <div class="user-status offline">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_5' data-user-id='5'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-5.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Melissa Dock</a></h4>
-                                <span class="status offline" data-status="offline"> Offline</span>
-                            </div>
-                            <div class="user-status offline">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_6' data-user-id='6'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-1.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Verdell Rea</a></h4>
-                                <span class="status available" data-status="available"> Available</span>
-                            </div>
-                            <div class="user-status available">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_7' data-user-id='7'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-2.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Linette Lheureux</a></h4>
-                                <span class="status busy" data-status="busy"> Busy</span>
-                            </div>
-                            <div class="user-status busy">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_8' data-user-id='8'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-3.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Araceli Boatright</a></h4>
-                                <span class="status away" data-status="away"> Away</span>
-                            </div>
-                            <div class="user-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_9' data-user-id='9'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-4.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Clay Peskin</a></h4>
-                                <span class="status busy" data-status="busy"> Busy</span>
-                            </div>
-                            <div class="user-status busy">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_10' data-user-id='10'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-5.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Loni Tindall</a></h4>
-                                <span class="status away" data-status="away"> Away</span>
-                            </div>
-                            <div class="user-status away">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_11' data-user-id='11'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-1.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Tanisha Kimbro</a></h4>
-                                <span class="status idle" data-status="idle"> Idle</span>
-                            </div>
-                            <div class="user-status idle">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-                        <li class="user-row" id='chat_user_12' data-user-id='12'>
-                            <div class="user-img">
-                                <a href="#"><img src="/data/profile/avatar-2.png" alt=""></a>
-                            </div>
-                            <div class="user-info">
-                                <h4><a href="#">Jovita Tisdale</a></h4>
-                                <span class="status idle" data-status="idle"> Idle</span>
-                            </div>
-                            <div class="user-status idle">
-                                <i class="fa fa-circle"></i>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-
-            </div>
-
-
-            <div class="chatapi-windows ">
-
-
-            </div>    </div>
+            
+              </div>
         <!-- END CONTAINER -->
         <!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
 
 
         <!-- CORE JS FRAMEWORK - START --> 
         
-        <script src="/assets/js/jquery.easing.min.js" type="text/javascript"></script> 
+        <script src="/assets/js/jquery.easing.min.js" type="text/javascript"></script>
         <script src="/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 
-        <script src="/assets/plugins/pace/pace.min.js" type="text/javascript"></script>  
+        
         <script src="/assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js" type="text/javascript"></script> 
-        <script src="/assets/plugins/viewport/viewportchecker.js" type="text/javascript"></script>  
-        <!-- CORE JS FRAMEWORK - END -->
-
+		
         <!-- CORE TEMPLATE JS - START --> 
         <script src="/assets/js/scripts.js" type="text/javascript"></script> 
         <!-- END CORE TEMPLATE JS - END --> 
-
-        <!-- Sidebar Graph - START --> 
-        <script src="/assets/plugins/sparkline-chart/jquery.sparkline.min.js" type="text/javascript"></script>
-        <script src="/assets/js/chart-sparkline.js" type="text/javascript"></script>
-        <!-- Sidebar Graph - END --> 
-
-
+		
 		<?php Yii::app()->clientScript->registerCoreScript('cookie'); ?>
 		<script>
 			
 			$('.wraplist a').click(function() {
 				$.cookie('menu',$(this).attr('id'),{path:"/"});
-			})
+			});
 			
 			$(document).ready(function() {
 				var menu=$.cookie('menu');
