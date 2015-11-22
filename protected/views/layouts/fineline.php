@@ -15,7 +15,8 @@
 
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/fineline/images/favicon.png" />
-		<link rel="apple-touch-icon" href="/fineline/images/apple-touch-icon.png" />
+		
+		<script src="/fineline/js/jquery-1.10.2.min.js" type="text/javascript"></script>
 		
 	</head>
 
@@ -70,5 +71,27 @@
 		</div>
 		<!-- End id="root-border" -->
 
+		<img style='display:none;' id="go_to_top" src="http://www.yincart.com/assets/b8d277ac/img/up.png" />
+		
+		<script>
+			(function(){
+				$('#go_to_top').on('click',function(){
+					$('html,body').animate({
+						scrollTop : 0
+					},500);
+				});
+			})();
+			$(window).scroll(function(){
+				//获取窗口的滚动条的垂直位置 
+				var s = $(window).scrollTop(); 
+				//当窗口的滚动条的垂直位置大于页面的最小高度时，让返回顶部元素渐现，否则渐隐 
+				if( s > 100){
+				$("#go_to_top").fadeIn(100); 
+				}else{
+				$("#go_to_top").fadeOut(200); 
+				}; 
+			});
+		</script>
+		
 	</body>
 </html>
