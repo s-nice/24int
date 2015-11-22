@@ -41,9 +41,11 @@ class LinksController extends AdminBase
 			
 			$image =  CUploadedFile::getInstance($model,'logo');
 			if($image){
-				$name = Yii::app()->params['uploadPath'].time().mt_rand(1,999).'.'.$image->extensionName;
-				$image->saveAs($name);
-				$model->logo=$name;
+				$savename = Yii::app()->params['uploadPath'].time().mt_rand(1,999).'.'.$image->extensionName;
+				$model->logo='/'.$savename;
+				if($model->validate()){
+					$image->saveAs($savename);
+				}
 			}
 			
 			if($model->save()){
@@ -80,9 +82,11 @@ class LinksController extends AdminBase
 			
 			$image =  CUploadedFile::getInstance($model,'logo');
 			if($image){
-				$name = Yii::app()->params['uploadPath'].time().mt_rand(1,999).'.'.$image->extensionName;
-				$image->saveAs($name);
-				$model->logo=$name;
+				$savename = Yii::app()->params['uploadPath'].time().mt_rand(1,999).'.'.$image->extensionName;
+				$model->logo='/'.$savename;
+				if($model->validate()){
+					$image->saveAs($savename);
+				}
 				if (file_exists($oldlogo)) {
 					unlink($oldlogo);
 				}
