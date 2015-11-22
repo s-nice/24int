@@ -686,7 +686,7 @@ hr.double-line {
 #content-container ul {
 	list-style: circle;
 	margin-bottom: 26px;
-	margin-left: 11px;
+	/*margin-left: 11px;*/
 }
 
 #content-container li {
@@ -1246,7 +1246,7 @@ hr.double-line {
 
 #blog-pagination li {
 	margin: 0;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 #blog-pagination a {
@@ -3001,10 +3001,12 @@ input[type=submit] {
 
 #blog-pagination .selected {
     border: 1px solid #888;
+	/*
     color: #666 !important;
     display: inline-block;
     font-weight: bold;
     cursor: default;
+	*/
 }
 
 #content-container .blog-item ul{
@@ -3014,4 +3016,8 @@ input[type=submit] {
 #content-container .info {
 font-size: 12px;
 margin-bottom: 18px;
+}
+
+ul.yiiPager .first, ul.yiiPager .last {
+    display: inline;
 }
