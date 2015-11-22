@@ -71,7 +71,7 @@
 		</div>
 		<!-- End id="root-border" -->
 
-		<img style='display:none;' id="go_to_top" src="http://www.yincart.com/assets/b8d277ac/img/up.png" />
+		<img style='display:none;' id="go_to_top" src="/fineline/images/toTop.png" />
 		
 		<script>
 			(function(){
