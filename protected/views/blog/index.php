@@ -23,10 +23,10 @@
 				'header'=>'',
 				'firstPageLabel' => '首页',
 				'lastPageLabel' => '末页',
-				'prevPageLabel' => '上一页',
-				'nextPageLabel' => '下一页',
+				'prevPageLabel' => '<',
+				'nextPageLabel' => '>',
 				'pages' => $page,
-				'maxButtonCount'=>13	//按钮大小
+				'maxButtonCount'=>10	//按钮大小
 				)
 			);
 			?>
