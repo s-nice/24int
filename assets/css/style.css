@@ -7543,8 +7543,12 @@ a:visited {
 .row .vl{
 	vertical-align: top;
 }
-
+/*
 .row input,textarea:focus{
+	outline:none;
+}
+*/
+input,textarea,select:focus{
 	outline:none;
 }
 
