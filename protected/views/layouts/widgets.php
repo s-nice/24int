@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class=" ">
+<html>
     <head>
         <!-- 
          * @Package: Ultra Admin - Responsive Theme
@@ -368,8 +368,6 @@
 
             <!-- SIDEBAR - START -->
             <div class="page-sidebar">
-
-
                 <!-- MAIN MENU - START -->
                 <div class="page-sidebar-wrapper" id="main-menu-wrapper"> 
 
@@ -435,7 +433,7 @@
             </section>
             <!-- END CONTENT -->
             
-              </div>
+		</div>
         <!-- END CONTAINER -->
         <!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
 
