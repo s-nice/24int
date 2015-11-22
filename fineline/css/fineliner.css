@@ -3026,7 +3026,7 @@ ul.yiiPager .first, ul.yiiPager .last {
     width: 40px;
     height: 40px;
     position: fixed;
-    left: 90%;
+    left: 80%;
     top: 80%;
 	display: block;
 }
