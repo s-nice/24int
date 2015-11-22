@@ -3021,3 +3021,12 @@ margin-bottom: 18px;
 ul.yiiPager .first, ul.yiiPager .last {
     display: inline;
 }
+
+#go_to_top {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    left: 90%;
+    top: 80%;
+	display: block;
+}
