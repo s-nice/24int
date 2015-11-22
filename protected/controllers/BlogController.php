@@ -37,7 +37,7 @@ class BlogController extends FrontBase {
 		//分页处理
 		$count = $model->count($criteria);
 		$page = new CPagination($count);
-		$page->pageSize = 5;
+		$page->pageSize = 10;
 		$page->applyLimit($criteria);
 		
 		$blogs = $model->findAll($criteria);
