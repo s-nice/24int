@@ -114,9 +114,9 @@ $('.search-form form').submit(function(){
 </div>
 
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
-<link href="assets/plugins/prettyphoto/prettyPhoto.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="/assets/plugins/prettyphoto/prettyPhoto.css" rel="stylesheet" type="text/css" media="screen"/>
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
 
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
-<script src="assets/plugins/prettyphoto/jquery.prettyPhoto.js" type="text/javascript">
+<script src="/assets/plugins/prettyphoto/jquery.prettyPhoto.js" type="text/javascript">
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
