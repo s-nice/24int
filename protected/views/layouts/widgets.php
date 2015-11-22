@@ -385,7 +385,7 @@
                         <div class="profile-details col-md-8 col-sm-8 col-xs-8">
 
                             <h3>
-                                <a href="ui-profile.html"><?php echo Yii::app()->user->user_name;?></a>
+                                <a href="<?php echo Yii::app()->createUrl('admin/user/profile'); ?>"><?php echo Yii::app()->user->user_name;?></a>
 
                                 <!-- Available statuses: online, idle, busy, away and offline -->
                                 <span class="profile-status online"></span>
@@ -397,9 +397,6 @@
 
                     </div>
                     <!-- USER INFO - END -->
-
-
-
                     <ul class='wraplist'>
                         
 						<?php $menu1 = Menu::getList(0); if($menu1){ foreach ($menu1 as $one){ ?>
