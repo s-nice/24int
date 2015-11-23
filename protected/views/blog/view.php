@@ -1,3 +1,4 @@
+<?php $this->pageTitle = $blog->title.'-24INT'; ?>
 <div class="row">
 	<div class="large-9 columns">
 
