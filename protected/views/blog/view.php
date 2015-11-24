@@ -66,20 +66,21 @@
 				</div>
 			</div>
 		</div>
-		<!--
+		
 		<div class="widget-item row">
 			<div class="large-12 columns">
 				<div class="inner-widget-item">
 					<div class="custom-text-widget">
-						<h4>Custom Text</h4>
+						<h4>说明</h4>
 						<p>
-							Ut enim ad minim veniam consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam consectetur adipisicing elit, sed do eiusmod
+							部分文章源于网络，如有侵权及时联系哦。
+							QQ：214653771.
 						</p>
 					</div>
 				</div>
 			</div>
-		</div>		
-		-->
+		</div>
+		
 	</div>
 
 </div>
