@@ -235,7 +235,7 @@ class UserController extends AdminBase
 			}else if($nowpwd!=$oldpwd){
 				Yii::app()->user->setFlash('success','旧密码不正确！');
 			}else{
-				$model->password=substr(md5($model->newpowd1),0,20);
+				$model->password=substr(md5($model->newpwd1),0,20);
 				
 				if($model->save()){
 					Yii::app()->user->setFlash('success','密码修改成功！');
