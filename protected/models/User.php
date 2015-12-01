@@ -62,7 +62,7 @@ class User extends CActiveRecord
 			
 			array('avatar',
 				'file', //定义为file类型
-				'allowEmpty' => true,
+				'allowEmpty' => false,
 				//'types' => 'jpg,png,gif,doc,docx,pdf,xls,xlsx,zip,rar,ppt,pptx', //上传文件的类型
 				'types' => 'jpg,png,gif', //上传文件的类型
 				'maxSize' => 1024 * 1024 * 2, //上传大小限制，注意不是php.ini中的上传文件大小
