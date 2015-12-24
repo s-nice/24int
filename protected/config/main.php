@@ -117,6 +117,11 @@ return array(
 		'urlManager' => array(
 			'urlFormat' => 'path',
 			'showScriptName' => false,
+			'rules' => [
+				//'<controller:\w+>s' => '<controller>/index',
+				'<controller:\w+>/<id:\d+>' => '<controller>/view',
+				'<controller:\w+>/<action:\w+>/<pid:\d+>' => '<controller>/<action>',
+			],
 			'urlSuffix' => '.html',
 		),
 		
