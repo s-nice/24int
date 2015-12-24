@@ -119,8 +119,8 @@ return array(
 			'showScriptName' => false,
 			'rules' => [
 				//'<controller:\w+>s' => '<controller>/index',
-				'<controller:\w+>/<id:\d+>' => '<controller>/view',
-				'<controller:\w+>/<action:\w+>/<pid:\d+>' => '<controller>/<action>',
+				'blog/<id:\d+>' => 'blog/view',
+				'<controller:\w+>s/<pid:\d+>' => '<controller>/index',
 			],
 			'urlSuffix' => '.html',
 		),
