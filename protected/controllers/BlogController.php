@@ -65,6 +65,9 @@ class BlogController extends FrontBase {
 		$id=intval($id);
 		$blog=Blog::model()->find('id=:id',array('id'=>$id));
 		
+		$blog->views+=1;
+		$blog->save();
+		
 		$catelist = Category::getDropList(1);
 		
 		$model = new Blog();
