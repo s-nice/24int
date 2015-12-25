@@ -118,7 +118,10 @@ return array(
 			'urlFormat' => 'path',
 			'showScriptName' => false,
 			'rules' => [
+				'blogs/<pid:\d+>/page-<page:\d+>' => 'blog/index',
+				'blogs/page-<page:\d+>' => 'blog/index',
 				'blogs/<pid:\d+>' => 'blog/index',
+				
 				'blogs' => 'blog/index',
 				'blog/<id:\d+>' => 'blog/view',
 			],
