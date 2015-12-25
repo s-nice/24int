@@ -118,9 +118,9 @@ return array(
 			'urlFormat' => 'path',
 			'showScriptName' => false,
 			'rules' => [
-				//'<controller:\w+>s' => '<controller>/index',
+				'blogs/<pid:\d+>' => 'blog/index',
+				'blogs' => 'blog/index',
 				'blog/<id:\d+>' => 'blog/view',
-				'<controller:\w+>s/<pid:\d+>' => '<controller>/index',
 			],
 			'urlSuffix' => '.html',
 		),
