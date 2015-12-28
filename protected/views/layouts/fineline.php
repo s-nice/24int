@@ -31,7 +31,7 @@
 
 						<div id="intro" class="row">
 							<div class="large-12 columns">
-								<h1>24INT<span>博客</span></h1>
+								<h1>24INT<span><a href="/">博客</a></span></h1>
 								<p>
 									第一件要做的就是马上去做！
 								</p>
