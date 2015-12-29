@@ -12,9 +12,7 @@ class FrontBase extends Controller
     protected $_seoTitle;
     protected $_seoKeyword;
     protected $_seoDes;
-	protected $_seoTj;
-	
-	protected $pageNav;
+	protected $_seoScode;
     
     /**
 	 * 初始化
@@ -31,7 +29,7 @@ class FrontBase extends Controller
 		$this->_seoTitle = $site->title;
         $this->_seoKeyword = $site->keyword;
         $this->_seoDes = $site->des;
-		$this->_seoTj = $site->code;
+		$this->_seoScode = $site->code;
         if($site->status == 0){
             self::_closed($site->remark);
 		}
