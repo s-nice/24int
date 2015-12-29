@@ -37,13 +37,12 @@ class SiteController extends FrontBase
 	 */
 	public function actionError()
 	{
-		//$this->layout=FALSE;
 		if($error=Yii::app()->errorHandler->error)
 		{
-			if(Yii::app()->request->isAjaxRequest)
-				echo $error['message'];
-			else{
-				$this->render('err', array(
+			if(Yii::app()->request->isAjaxRequest){
+				echo $error['message'];exit();
+			}else{
+				$this->render('error', array(
 					'error'=>$error,
 				));
 			}
