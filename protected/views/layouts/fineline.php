@@ -21,7 +21,9 @@
 	</head>
 
 	<body>
-
+		<div style="display: none">
+			<img src="/fineline/images/1.png" />
+		</div>
 		<div id="root-border">
 			<div id="root-container">
 				<div id="content-container" class="columns-content-width">
