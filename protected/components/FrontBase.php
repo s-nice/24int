@@ -41,6 +41,6 @@ class FrontBase extends Controller
      */
     protected function _closed($message){
         $this->render('/site/close', array('message'=>$message));
-        exit;
+        exit();
     }
 }
