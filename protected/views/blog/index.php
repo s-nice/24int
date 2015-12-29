@@ -8,7 +8,7 @@
 				<p class="info">
 				<?php echo date('Y-m-d',$one->create_time); ?>
 				<a href="<?php echo Yii::app()->createUrl('blog/index', array('pid' => $one->pid)); ?>">分类：<?php echo Category::getName($one->pid); ?></a>
-				阅读：<?php echo mt_rand(1, 99)+$one->views; if($one->source){ echo ' 来源：'.$one->source; } ?>
+				阅读：<?php echo $one->views; if($one->source){ echo ' 来源：'.$one->source; } ?>
 				</p>
 				<p class="excerpt"><?php echo $one->brief; ?></p>
 				<a class="readmore-link" href="<?php echo Yii::app()->createUrl('blog/view', array('id' => $one->id)); ?>">继续阅读 -></a>

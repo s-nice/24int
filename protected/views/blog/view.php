@@ -8,7 +8,7 @@
 			<p class="info">
 			<?php echo date('Y-m-d',$blog->create_time); ?>
 			<a href="<?php echo Yii::app()->createUrl('blog/index', array('pid' => $blog->pid)); ?>">分类：<?php echo Category::getName($blog->pid); ?></a>
-			阅读：<?php echo mt_rand(1, 99)+$blog->views; if($blog->source){ echo ' 来源：'.$blog->source; } ?>
+			阅读：<?php echo $blog->views; if($blog->source){ echo ' 来源：'.$blog->source; } ?>
 			</p>
 			<?php echo $blog->content; ?>
 		</div>
