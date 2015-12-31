@@ -56,7 +56,7 @@
 						<div id="footer-bar" class="content row">
 							<a id="footer-logo" href="/"><img src="/fineline/images/logo-footer.png" alt="Fineliner" title="Fineliner" /></a>
 							<p id="copyright-text">
-								© 2015 <a href="/">24INT</a>. All Rights Reserved.
+								© 2016 <a href="/">24INT</a>. All Rights Reserved.
 							</p>
 						</div>
 						
