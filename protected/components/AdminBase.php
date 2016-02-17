@@ -5,8 +5,6 @@
  */
 class AdminBase extends SBaseController {
 
-	//protected $_UserId;
-
 	public function init() {
 		//parent::init();
 		
