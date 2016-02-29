@@ -52,7 +52,7 @@ class PublicController extends Controller
 				$this->redirect(Yii::app()->createUrl('admin/default/index'));
 		}
 		// display the login form
-		$this->render('login',array('model'=>$model));
+		$this->render('login2',array('model'=>$model));
 	}
 	
 	/**
