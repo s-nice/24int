@@ -12,7 +12,7 @@ $this->breadcrumbs=array(
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="content-type" content="text/html; />
+        <meta http-equiv="content-type" content="text/html"; />
         <meta charset="utf-8" />
         <title>Admin</title>
 		
