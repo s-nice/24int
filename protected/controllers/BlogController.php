@@ -31,7 +31,8 @@ class BlogController extends FrontBase {
 		
 		if(isset($_POST['keyword']) && $_POST['keyword']){
 			$keyword=addslashes($_POST['keyword']);
-			$criteria->compare('title',$keyword,true);
+			//$criteria->compare('title',$keyword,true);
+			$criteria->addCondition("title like '%$keyword%' or content like '%$keyword%'");
 		}
 		
 		//分页处理
