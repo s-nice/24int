@@ -10,8 +10,11 @@
 			</article>
 
 			<div class="clearer"></div>
-	<?php }
-} ?>
+	<?php }}else{ ?>
+		<p>
+			<?php echo '没有相关文章！'; ?>
+		</p>
+	<?php } ?>
 </section>
 <div class="clearer"></div>
 <nav class="navigator">
