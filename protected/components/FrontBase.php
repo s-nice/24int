@@ -6,7 +6,7 @@
 
 class FrontBase extends Controller
 {
-    public $layout = '//layouts/fineline';
+    public $layout = '//layouts/main2';
     protected $_conf;
     
     protected $_seoTitle;
