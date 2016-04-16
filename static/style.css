@@ -41,7 +41,7 @@ img{border:0;max-width:100%;}
 /* 页头 */
 #header{width:100%;height:120px;background:#fff;}
 #header:before{content:'';position:absolute;height:1px;top:120px;left:0;right:0;background:#eee}
-#header .logo{font-size:28px;line-height:120px;float:left;position:relative;}
+#header .logo{font-size:28px;line-height:120px;float:left;position:relative;padding-left:40%}
 #header .logo i{font-size:30px;position:absolute;top:51%;right:-35px;line-height:0;opacity:0;}
 #header .logo:hover i{font-size:20px;right:-29px;opacity:1;}
 
