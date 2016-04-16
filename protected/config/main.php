@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'24INT',
+	'name'=>'技术派',
 
 	//语言
 	'language' => 'zh_cn',
