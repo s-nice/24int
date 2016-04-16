@@ -6,12 +6,9 @@
 		<title>技术派</title>
 		<script type='text/javascript' src='/static/js/jquery.js?ver=1.12.3'></script>
 		<script type='text/javascript' src='/static/js/jquery-migrate.min.js?ver=1.4.0'></script>
-		<link type="image/vnd.microsoft.icon" href="/static/images/favicon.png" rel="shortcut icon">
+		
 		<link href="/static/style.css" type="text/css" rel="stylesheet"/>
-		<!--[if lt IE 9]>
-		<script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
-		<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
+		
 	</head>
 	<body>
 		<div id="main" class="container">
@@ -55,14 +52,10 @@
 					</section>
 
 					&copy; 2016 <a href="/">技术派</a>
-
+					<a class="back2top"></a>
 				</footer>
 				
-				<script type='text/javascript'>
-					/* <![CDATA[ */
-					var ajaxcomment = {"ajax_url": "https:\/\/www.static.cn\/wp-admin\/admin-ajax.php", "order": "desc", "formpostion": "top"};
-					/* ]]> */
-				</script>
-				
+				<script type="text/javascript" src="//cdn.bootcss.com/jquery/3.0.0-beta1/jquery.min.js"></script>
+				<script type="text/javascript" src="/static/js/functions.js"></script>
 	</body>
 </html>
