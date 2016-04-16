@@ -116,9 +116,3 @@ function() {
     ajax($(this).attr("href"), 'pagelink');
     return false;
 });
-//搜索ajax
-$('body').on('submit',pjax_form, 
-function() {
-    ajax(this.action + '?s=' + $(this).find(pjax_key).val(), 'search'); 
-    return false;
-});
