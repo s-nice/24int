@@ -53,7 +53,7 @@ class BlogController extends FrontBase {
 		$criteria2->limit=5;
 		$recent = $model2->findAll($criteria2);
 		
-		$this->render('index',array(
+		$this->render('index2',array(
 			'blogs'=>$blogs,
 			'catelist'=>$catelist,
 			'page'=>$page,
@@ -79,7 +79,7 @@ class BlogController extends FrontBase {
 		$criteria->limit=5;
 		$recent = $model->findAll($criteria);
 		
-		$this->render('view',array(
+		$this->render('view2',array(
 			'blog'=>$blog,
 			'catelist'=>$catelist,
 			'recent'=>$recent,
