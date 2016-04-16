@@ -47,6 +47,7 @@
 				
 				<footer id="footer">
 					<section class="links_adlink">
+						友情链接：
 						<ul class="container">
 							<li><a target="_blank" href="http://www.s-nice.com">s-nice</a></li>
 
