@@ -78,8 +78,8 @@ transform:rotate(-135deg);-webkit-transform:rotate(-135deg);-ms-transform:rotate
 
 /* 通用文章格式支持 */
 .single{position:relative;}
-h2.s_title{font-size:22px;margin:0 0 8% 0;position:relative;color:#333;}
-h2.s_title:after{position:absolute;content:"";height:1px;width:30%;background:#eee;left:0;bottom:-.6em;}
+h2.s_title{font-size:22px;/*margin:0 0 8% 0;*/position:relative;color:#333;}
+h2.s_title:after{position:absolute;content:"";height:1px;width:30%;background:#eee;left:0;bottom:-1.6em;}
 
 .single img{max-width:100%;height:auto;margin:10px auto;display:block;float:none;}
 .single embed{max-width:100%;margin:10px auto;display:block;}
