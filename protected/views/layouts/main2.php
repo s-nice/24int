@@ -3,11 +3,9 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<title>技术派</title>
+		<title>rain</title>
 		<script type='text/javascript' src='/static/js/jquery.js?ver=1.12.3'></script>
 		<script type='text/javascript' src='/static/js/jquery-migrate.min.js?ver=1.4.0'></script>
-		
-		<link href="/static/style.css" type="text/css" rel="stylesheet"/>
 		
 	</head>
 	<body>
@@ -16,7 +14,7 @@
 				<header id="header">
 					<div class="container">
 						<h1 class="logo">
-							<i class="iconfont">&#xe60d;</i><a href="/">技术派</a>
+							<i class="iconfont">&#xe60d;</i><a href="/">rain</a>
 						</h1>
 						<nav class="menus">
 							<i>
@@ -51,7 +49,7 @@
 						</ul>
 					</section>
 
-					&copy; 2016 <a href="/">技术派</a>
+					&copy; 2016 <a href="/">rain</a>
 					<a class="back2top"></a>
 				</footer>
 				
