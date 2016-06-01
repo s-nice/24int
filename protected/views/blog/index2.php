@@ -20,7 +20,7 @@
 <nav class="navigator">
 	<?php
 	$this->widget('CLinkPager',array(
-		'cssFile'=>"/static/style.css",
+		
 		'header'=>'',
 		'firstPageLabel' => false,
 		'lastPageLabel' => false,
