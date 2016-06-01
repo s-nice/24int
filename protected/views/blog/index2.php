@@ -3,7 +3,7 @@
 	<?php if ($blogs) {
 		foreach ($blogs as $one) { ?>
 			<article class="post post-list" itemscope="" itemtype="http://schema.org/BlogPosting">
-				<div class="icon"><img src=""/><i class="iconfont">&#xe605;</i></div>
+				
 				<h2 itemprop="name headline" class="title"><a href="<?php echo Yii::app()->createUrl('blog/view', array('id' => $one->id)); ?>"><?php echo $one->title; ?></a></h2>
 		<div class="p_time"><?php echo date('Y-m-d', $one->create_time); ?><a href="<?php echo Yii::app()->createUrl('blog/index', array('pid' => $one->pid)); ?>"> | <?php echo Category::getName($one->pid); ?></a> | <?php echo $one->views; ?></div>
 				<p><?php echo mb_substr(strip_tags($one->content),0,200,'utf-8'); ?>……</p>
