@@ -70,10 +70,10 @@ transform:rotate(-135deg);-webkit-transform:rotate(-135deg);-ms-transform:rotate
 .post-list .icon i{position:absolute;left:3px;right:0;top:4px;color:#ccc;text-align:center;font-size:26px;line-height:50px;z-index:0;}
 .post-list .icon img{border-radius:100px;position:relative;z-index:1;}
 
-.post-list h2.title{font-size:22px;margin:0 0 0 80px;position:relative;z-index:1;overflow:hidden;}
+.post-list h2.title{font-size:22px;position:relative;z-index:1;overflow:hidden;}
 .post-list h2.title a{padding:0 10px 0 0;}
 .post-list .p_time{font-size:12px;margin:0 0 0 80px;}
-.post-list p{margin:1% 0 0 0;color:#666;}
+.post-list p{color:#666;}
 
 
 /* 通用文章格式支持 */
