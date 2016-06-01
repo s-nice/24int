@@ -6,7 +6,7 @@
 		<title>rain</title>
 		<script type='text/javascript' src='/static/js/jquery.js?ver=1.12.3'></script>
 		<script type='text/javascript' src='/static/js/jquery-migrate.min.js?ver=1.4.0'></script>
-		
+		<link href="/static/style.css" type="text/css" rel="stylesheet"/>
 	</head>
 	<body>
 		<div id="main" class="container">
