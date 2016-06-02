@@ -7,7 +7,7 @@
  * @license http://www.yiiframework.com/license/
  * @since 1.0
  */
-
+/*
 ul.yiiPager
 {
 	font-size:11px;
@@ -55,12 +55,14 @@ ul.yiiPager .hidden a
 	border:solid 1px #DEDEDE;
 	color:#888888;
 }
-
+*/
 /**
  * Hide first and last buttons by default.
  */
+/*
 ul.yiiPager .first,
 ul.yiiPager .last
 {
 	display:none;
 }
+*/
