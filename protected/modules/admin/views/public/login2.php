@@ -14,7 +14,7 @@ $this->breadcrumbs=array(
     <head>
         <meta http-equiv="content-type" content="text/html"; />
         <meta charset="utf-8" />
-        <title>Admin</title>
+        <title>RAIN</title>
 		
         <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon" />
 		
@@ -27,7 +27,7 @@ $this->breadcrumbs=array(
     <body>
         
             <div id="login" class="login loginpage">
-                <h1>ADMIN</h1>
+                <h1>RAIN</h1>
 
 				<?php
 				$form = $this->beginWidget('CActiveForm', array(
