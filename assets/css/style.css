@@ -360,7 +360,7 @@ a:hover, a:focus {
     max-height: 60px;
 }
 .page-topbar .logo-area {
-    width: 300px;
+    width: 200px;
     background-color: #9972b5;
     display: block;
     min-height: 60px;
@@ -404,7 +404,7 @@ a:hover, a:focus {
     top: 0px;
     right: 10px;
     position: relative;
-    background-color: #999999;
+    /*background-color: #999999;*/
 }
 .page-topbar i {
     font-size: 14px;
@@ -698,7 +698,7 @@ a:hover, a:focus {
 
 .page-sidebar {
     height: auto;
-    width: 300px;
+    width: 200px;
     position: fixed;
     padding: 0px;
     background-color: rgba(50, 50, 58, 1.0);
@@ -4627,7 +4627,7 @@ code {
     z-index: 99;
 }
 #main-content {
-    margin-left: 300px;
+    margin-left: 200px;
     display: block;
 }
 
@@ -7459,6 +7459,11 @@ border-left: 3px solid transparent;
 
 .content-body input{
 	padding-left:5px;
+	height:28px;
+}
+
+.content-body input[type=radio]{
+	height:12px;
 }
 
 .content-body textarea{
@@ -7590,61 +7595,6 @@ ul.yiiPager .previous a {
     display: inline;
 }
 
-
-ul.yiiPager
-{
-	font-size:11px;
-	border:0;
-	margin:0;
-	padding:0;
-	line-height:100%;
-	display:inline;
-}
-
-ul.yiiPager li
-{
-	display:inline;
-}
-
-ul.yiiPager a:link,
-ul.yiiPager a:visited
-{
-	border:solid 1px #9aafe5;
-	font-weight:bold;
-	color:#0e509e;
-	padding:1px 6px;
-	text-decoration:none;
-}
-
-ul.yiiPager .page a
-{
-	font-weight:normal;
-}
-
-ul.yiiPager a:hover
-{
-	border:solid 1px #0e509e;
-}
-
-ul.yiiPager .selected a
-{
-	background:#2e6ab1;
-	color:#FFFFFF;
-	font-weight:bold;
-}
-
-ul.yiiPager .hidden a
-{
-	border:solid 1px #DEDEDE;
-	color:#888888;
-}
-*/
-/**
- * Hide first and last buttons by default.
- */
-
-ul.yiiPager .first,
-ul.yiiPager .last
-{
-	display:none;
+.form_table{
+	width:80%;
 }
