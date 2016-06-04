@@ -169,11 +169,17 @@ class BlogController extends AdminBase
 	public function actionAdmin()
 	{
 		$model=new Blog('search');
-		$catelist = Category::getDropList(1);
+		$catelist=array();
+		$catelist[0]='全部';
+		$catelist = $catelist+Category::getDropList(1);
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Blog']))
 			$model->attributes=$_GET['Blog'];
 
+		if($model->pid==0){
+			$model->pid='';
+		}
+		
 		$this->render('admin',array(
 			'model'=>$model,
 			'catelist'=>$catelist,
