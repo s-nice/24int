@@ -3,7 +3,7 @@
 /**
  * 后台管理基础类
  */
-class AdminBase extends SBaseController {
+class AdminBase extends Controller {
 
 	public function init() {
 		//parent::init();
