@@ -27,11 +27,6 @@
 	</div>
 
 	<div class="rowSearch">
-		<?php echo $form->label($model,'source'); ?>：
-		<?php echo $form->textField($model,'source',array('size'=>20,'maxlength'=>120)); ?>
-	</div>
-
-	<div class="rowSearch">
 		<?php echo $form->label($model,'is_show'); ?>：
 		<?php echo $form->dropDownList($model,'is_show',array('1'=>'是','0'=>'否'),array('class'=>'input-sm')); ?>
 	</div>
