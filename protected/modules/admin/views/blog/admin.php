@@ -54,7 +54,12 @@ $('.search-form form').submit(function(){
 			'type'=>'raw',
 			'value'=>'Category::getName($data->pid)',
 		),
-		'title',
+		//'title',
+		array(
+			'name'=>'title',
+			'type'=>'raw',
+			'value'=>'CHtml::link($data->title,Yii::app()->createUrl("blog/view",array("id"=>$data->id)),array("target"=>"_blank"))',
+		),
 		//'img',
 		//'create_time',
 		array(
