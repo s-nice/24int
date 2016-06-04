@@ -6,18 +6,19 @@
 		<?php echo $blog->content; ?>
 	</article>
 	
-	<div class="reward">
-	赏
-	<ul>
+	<section class="ending">
 	
-	<li><img src="/static/images/w.jpg">微信打赏</li>
-	</ul>
+	<div class="reward">
+		赏
+		<ul>
+			<li><img src="/static/images/w.jpg">微信打赏</li>
+		</ul>
 	</div>
 
 	<div class="about">
 	<img alt="" src="http://7xssk6.com2.z0.glb.clouddn.com/14604352399984.jpg" srcset="http://7xssk6.com2.z0.glb.clouddn.com/14604352399984.jpg" class="avatar avatar-80 photo" height="80" width="80"><p>世界上唯一不变的，就是一切都在变。</p>
 	</div>
-	
+	</section>
 	
 </section>
 
