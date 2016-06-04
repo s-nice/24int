@@ -52,12 +52,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'brief',array('class'=>'vl')); ?>
-		<?php echo $form->textArea($model,'brief',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'brief'); ?>
-	</div>
-
-	<div class="row">
 		<?php
 		$this->widget('ext.kindeditor.KindEditor', array(
 			'model' => $model,
@@ -71,27 +65,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'source'); ?>
-		<?php echo $form->textField($model,'source',array('size'=>60,'maxlength'=>120)); ?>
-		<?php echo $form->error($model,'source'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'is_show'); ?>
 		<?php echo $form->radioButtonList($model,'is_show',array(1=>'是',0=>'否'),array('class'=>'')); ?>
 		<?php echo $form->error($model,'is_show'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'orderid'); ?>
-		<?php echo $form->textField($model,'orderid',array('size'=>11,'maxlength'=>11)); ?>
-		<?php echo $form->error($model,'orderid'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'views'); ?>
-		<?php echo $form->textField($model,'views',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'views'); ?>
 	</div>
 
 	<button type="submit" class="btn btn-primary ml100">提交</button>
