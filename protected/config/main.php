@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'技术派',
+	'name'=>'rain',
 
 	//语言
 	'language' => 'zh_cn',
@@ -83,23 +83,13 @@ return array(
 				
 				'blogs' => 'blog/index',
 				'blog/<id:\d+>' => 'blog/view',
+				
+				'admin/login' => 'admin/public/login',
 			],
 			'urlSuffix' => '.html',
 		),
 		
-		'authManager' => array(
-			// Path to SDbAuthManager in srbac module if you want to use case insensitive
-			//access checking (or CDbAuthManager for case sensitive access checking)
-			'class' => 'CDbAuthManager',
-			// The database component used
-			'connectionID' => 'db',
-			// The itemTable name (default:authitem)
-			'itemTable' => 's_items',
-			// The assignmentTable name (default:authassignment)
-			'assignmentTable' => 's_assignments',
-			// The itemChildTable name (default:authitemchild)
-			'itemChildTable' => 's_itemchildren',
-		),
+		
 	),
 
 	// application-level parameters that can be accessed
