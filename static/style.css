@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* 
   Theme Name: iDevise
   Theme URL: http://www.idevs.cn
@@ -13,7 +13,7 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,acronym,address,big,cite,code,del,dfn,em,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;outline:none;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;margin:0;padding:0;}
 html,body{height:100%;}
 body{background:#fff}
-body,input,button,textarea{-webkit-appearance:none;border-radius:0;font-family: "Lucida Grande", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Noto Sans CJK SC", "Heiti SC", "Microsoft YaHei", "WenQuanYi Microhei", sans-serif;letter-spacing:.04em;line-height:2.4em;font-size:15px;color:#888;}
+body,input,button,textarea{-webkit-appearance:none;border-radius:0;font-family: "Lucida Grande", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Noto Sans CJK SC", "Heiti SC", "Microsoft YaHei", "WenQuanYi Microhei", sans-serif;letter-spacing:.04em;line-height:2.4em;font-size:15px;/*color:#888;*/}
 p{color:#666;}
 br{display:block;line-height:1.6em;}
 ol,ul,li{list-style:none;display: inline;}
@@ -41,13 +41,13 @@ img{border:0;max-width:100%;}
 /* 页头 */
 #header{width:100%;height:120px;background:#fff;}
 #header:before{content:'';position:absolute;height:1px;top:120px;left:0;right:0;background:#eee}
-#header .logo{font-size:28px;line-height:120px;float:left;position:relative;}
+#header .logo{font-size:28px;line-height:120px;float:right;position:relative;right:50%;}
 #header .logo i{font-size:30px;position:absolute;top:51%;right:-35px;line-height:0;opacity:0;}
 #header .logo:hover i{font-size:20px;right:-29px;opacity:1;}
 
-#header .menus{float:right;cursor:pointer;height:100px;margin: 0 -20px 0 0;padding:48px 20px;}
+#header .menus{float:left;cursor:pointer;height:100px;margin: 0 -20px 0 0;padding:48px 20px;}
 #header .menus ul{display:none;font-style:normal;line-height:36px;}
-#header .menus:hover ul{display:block;width:120px;position:absolute;left:-80px;top:36px;background:#fff;box-shadow:0 0 0 1px #eee inset;z-index:9;}
+#header .menus:hover ul{display:block;width:120px;position:absolute;left:-50px;top:36px;background:#fff;box-shadow:0 0 0 1px #eee inset;z-index:9;}
 #header .menus ul li a{width:100%;display:block;text-align:center;margin:0}
 #header .menus ul li a:hover{background:#f55;color:#fff;}
 #header .menus i{width:26px;height:1px;background:#999;display:block;position:relative;}
@@ -64,7 +64,7 @@ transform:rotate(-135deg);-webkit-transform:rotate(-135deg);-ms-transform:rotate
 
 /* 文章列表 */
 .blockGroup{padding:5% 30px;min-height:450px}
-.post-list{margin:0 0 10% 0;position:relative;}
+.post-list{margin:0 0 6% 0;position:relative;}
 .post-list .icon{position:absolute;width:55px;height:55px;top:4px;left:0px;padding:1px;border-radius:100px;box-shadow:0 0 0 1px #eee,0 5px 10px -6px #666;}
 .post-list .icon:after{content:'';position:absolute;width:1px;top:25%;height:50%;right:-14px;background:#eee;}
 .post-list .icon i{position:absolute;left:3px;right:0;top:4px;color:#ccc;text-align:center;font-size:26px;line-height:50px;z-index:0;}
@@ -72,14 +72,14 @@ transform:rotate(-135deg);-webkit-transform:rotate(-135deg);-ms-transform:rotate
 
 .post-list h2.title{font-size:22px;position:relative;z-index:1;overflow:hidden;}
 .post-list h2.title a{padding:0 10px 0 0;}
-.post-list .p_time{font-size:12px;}
+.p_time{font-size:12px;color: #666;}
 .post-list p{color:#666;}
 
 
 /* 通用文章格式支持 */
 .single{position:relative;}
-h2.s_title{font-size:22px;margin:0 0 8% 0;position:relative;color:#333;}
-h2.s_title:after{position:absolute;content:"";height:1px;width:30%;background:#eee;left:0;bottom:-.6em;}
+h2.s_title{font-size:22px;position:relative;color:#333;}
+h2.s_title:after{position:absolute;content:"";height:1px;width:100%;background:#eee;left:0;bottom:-.1em;}
 
 .single img{max-width:100%;height:auto;margin:10px auto;display:block;float:none;}
 .single embed{max-width:100%;margin:10px auto;display:block;}
@@ -99,7 +99,7 @@ h2.s_title:after{position:absolute;content:"";height:1px;width:30%;background:#e
 .single ol,.single ul{margin:10px 0;padding:10px 40px;background:#fafafa;}
 .single ol li{list-style-type:decimal;}
 .single ul li{list-style-type:disc;}
-.single strong{font-weight:bold;color:#000;background:#eee;border-radius:3px;padding:0 2px;}
+.single strong{font-weight:bold;color:#000;border-radius:3px;padding:0 2px;}
 .single hr{border:none;height:1px;background:#eee;margin:50px 30%;}
 .single pre{padding:0 20px;position:relative;border:1px solid #eee;}
 .single pre:before,.single pre:after{display:block;padding:10px 0;color:#f55;}
@@ -250,15 +250,14 @@ body{opacity:1;}
 .post-list .icon{width:55px;height:55px;overflow:hidden;margin: 8px 0 0 0;left:-75px;}
 .post-list .icon i{line-height:55px;top:1px;}
 .post-list{padding:0 0 3% 0;border-bottom:1px solid #eee}
-.post-list  h2.title{font-size:16px;margin:0;line-height:30px;height: 26px;overflow:hidden;}
-.post-list .p_time{line-height:18px;margin:auto;color:#ccc;}
+.post-list  h2.title{font-size:16px;margin:0;line-height:30px;overflow:hidden;}
+.post-list .p_time{margin:auto;color:#ccc;}
 .post-list p{font-size:12px;margin:0 0 5px 0;line-height:18px;height:2.8em;overflow:hidden;}
 .blockGroup {margin:0;padding:4%;padding-top:62px;min-height:450px}
 .navigator {padding: 0 0 6% 0;}
 .search input{max-width:56%;}
 .arrow,#footer .links_adlink,.post-list  h2.title:before,.post-list  h2.title:after,#header:before,.post-list .icon:after{display:none;}
 
-.ending{height:150px;}
 .about{width:40px;height:40px;left:-80px;right:0;margin:auto;top:30px;}
 .about p{left:-172%;top:-145px;display:none}
 .reward{left:80px;right:0;margin:auto;top:30px;}
