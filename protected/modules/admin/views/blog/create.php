@@ -3,8 +3,8 @@
 /* @var $model Blog */
 
 $this->breadcrumbs=array(
-	'Blogs'=>array('index'),
-	'Create',
+	'博客'=>array('admin'),
+	'创建',
 );
 ?>
 

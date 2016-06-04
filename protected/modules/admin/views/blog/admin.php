@@ -3,8 +3,8 @@
 /* @var $model Blog */
 
 $this->breadcrumbs=array(
-	'Blogs'=>array('index'),
-	'Manage',
+	'博客'=>array('admin'),
+	'管理',
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -55,7 +55,7 @@ $('.search-form form').submit(function(){
 			'value'=>'Category::getName($data->pid)',
 		),
 		'title',
-		'img',
+		//'img',
 		//'create_time',
 		array(
 			'name'=>'create_time',
