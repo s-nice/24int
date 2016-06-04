@@ -1,7 +1,7 @@
 
 <section class="blockGroup">
 	<h2 itemprop="name headline" class="s_title"><?php echo $blog->title; ?></h2>
-	<p class="p_time"><?php echo date('Y-m-d', $blog->create_time); ?> | <a href="<?php echo Yii::app()->createUrl('blog/index', array('pid' => $blog->pid)); ?>"> <?php echo Category::getName($blog->pid); ?></a> | <?php echo $blog->views; ?>浏览</p><br>
+	<p class="p_time"><?php echo date('Y-m-d', $blog->create_time); ?> | <a href="<?php echo Yii::app()->createUrl('blog/index', array('pid' => $blog->pid)); ?>"> <?php echo Category::getName($blog->pid); ?></a> | <?php echo $blog->views; ?>浏览</p>
 	<article class="post single" itemscope itemtype="http://schema.org/BlogPosting">
 		<?php echo $blog->content; ?>
 	</article>
