@@ -84,7 +84,7 @@ h2.s_title:after{position:absolute;content:"";height:1px;width:100%;background:#
 .single img{max-width:100%;height:auto;margin:10px auto;display:block;float:none;}
 .single embed{max-width:100%;margin:10px auto;display:block;}
 .single a {text-decoration:none;}
-.single p{margin:0 0 10px;}
+/*.single p{margin:0 0 10px;}*/
 .single p a,.single p a span{background:#fafafa;color:#333!important;padding:2px 6px;}
 .single p a span{padding:0;}
 .single p a:hover,.single p a:hover span{background:#f55;color:#fff!important;}
