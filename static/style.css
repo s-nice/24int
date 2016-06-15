@@ -16,7 +16,8 @@ body{background:#fff}
 body,input,button,textarea{-webkit-appearance:none;border-radius:0;font-family: "Lucida Grande", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Noto Sans CJK SC", "Heiti SC", "Microsoft YaHei", "WenQuanYi Microhei", sans-serif;letter-spacing:.04em;line-height:2.4em;font-size:15px;/*color:#888;*/}
 p{color:#666;}
 br{display:block;line-height:1.6em;}
-ol,ul,li{list-style:none;display: inline;}
+ol,ul,li{list-style:none;/*display: inline;*/}
+.yiiPager li{display: inline;}
 input,textarea,button{outline:none;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:none;}
@@ -85,9 +86,9 @@ h2.s_title:after{position:absolute;content:"";height:1px;width:100%;background:#
 .single embed{max-width:100%;margin:10px auto;display:block;}
 .single a {text-decoration:none;}
 /*.single p{margin:0 0 10px;}*/
-.single p a,.single p a span{background:#fafafa;color:#333!important;padding:2px 6px;}
+.single p a,.single p a span{/*background:#fafafa;*/color:#333!important;padding:2px 6px;}
 .single p a span{padding:0;}
-.single p a:hover,.single p a:hover span{background:#f55;color:#fff!important;}
+.single p a:hover,.single p a:hover span{color:#f55!important;}
 .single h1,.single h2,.single h3,.single h4{margin:30px 0 10px 1.6em;color:#333;position:relative}
 .single h1:before,.single h2:before,.single h3:before,.single h4:before,.single h1:after,.single h2:after,.single h3:after,.single h4:after{content:"";position:absolute;width:4px;height:4px;background:#fa1;left:-22px;top:.7em;}
 .single h1:after,.single h2:after,.single h3:after,.single h4:after{background:#f55;left:-12px;top:.3em;}
