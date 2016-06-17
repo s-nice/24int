@@ -16,8 +16,8 @@ body{background:#fff}
 body,input,button,textarea{-webkit-appearance:none;border-radius:0;font-family: "Lucida Grande", "Helvetica Neue", "Arial", "Hiragino Sans GB", "Noto Sans CJK SC", "Heiti SC", "Microsoft YaHei", "WenQuanYi Microhei", sans-serif;letter-spacing:.04em;line-height:2.4em;font-size:15px;/*color:#888;*/}
 p{color:#666;}
 br{display:block;line-height:1.6em;}
-ol,ul,li{list-style:none;display: inline;}
-.post single,ol,ul,li{display: list-item;}
+ol,ul,li{list-style:none;/*display: inline;*/}
+.yiiPager li,#footer ul,#footer li{display: inline;}
 input,textarea,button{outline:none;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:none;}
