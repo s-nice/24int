@@ -45,7 +45,7 @@
 						友情链接：
 						<ul class="container">
 							<li><a target="_blank" href="http://www.s-nice.com">s-nice</a></li>
-
+							<li><a target="_blank" href="http://www.xiaoliaoji.com">笑料集</a></li>
 						</ul>
 					</section>
 
